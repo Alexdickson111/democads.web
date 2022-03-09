@@ -10,11 +10,8 @@ import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
 	return (
-		<Box height="1000px" px={10} flexDirection="column" justifyContent="center" gap={10} sx={{ display: 'flex' }}>
-			<Box position="absolute" top={0} right={0}>
-				<img src="/hero.svg" alt="next" width="396px" />
-			</Box>
-			<Box width="569px" pt={10}>
+		<Box px={4} flexDirection="column" justifyContent="center" gap={10} maxWidth="100%" sx={{ display: 'flex' }}>
+			<Box maxWidth="569px" mt={10}>
 				<Typography fontWeight="bold" gutterBottom variant="h2">
 					<Typography color="primary.main" display="inline" fontWeight="bold" variant="h2">
 						Democratize{' '}
@@ -25,13 +22,16 @@ const Home: NextPage = () => {
 					</Typography>{' '}
 					revenue
 				</Typography>
-				<Typography variant="body1" fontSize="16px" gutterBottom width="400px">
-					Democads is a decentralized ads platform to use on your site and reward your content creators fairly by
-					conecting them directly to the advertiser with no middleman
+				<Typography variant="body1" fontSize="16px" gutterBottom maxWidth="400px">
+					Democads is a decentralized ads platform for your site to reward your content creators fairly by conecting
+					them directly to the advertiser with no middleman
 				</Typography>
 			</Box>
+			<Box position={{ xs: 'relative', md: 'absolute' }} top={0} right={0}>
+				<img src="/hero.svg" alt="next" width="396px" />
+			</Box>
 
-			<Grid container width="100%" justifyContent="center" spacing={10}>
+			<Grid container width="100%" justifyContent="center" gap={10}>
 				<Grid item flexDirection="column" justifyContent="center" width="auto">
 					<PublicTwoTone sx={{ fontSize: '70px', color: 'primary.main' }} />
 					<Typography fontWeight="bold">Nose</Typography>
