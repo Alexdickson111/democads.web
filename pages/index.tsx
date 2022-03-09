@@ -6,6 +6,8 @@ import Stepper from '@mui/material/Stepper';
 import { Box, Grid, Icon, Typography } from '@mui/material';
 import { PublicTwoTone } from '@mui/icons-material';
 
+import RoadMap from '../components/RoadMap';
+
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -51,7 +53,11 @@ const Home: NextPage = () => {
 			<Typography fontWeight="bold" gutterBottom variant="h4" textAlign="center">
 				How it works
 			</Typography>
-			<Stepper></Stepper>
+			{/* <img src="/democadsHeroNoBg.svg" alt="next" /> */}
+			<Typography fontWeight="bold" gutterBottom variant="h4" textAlign="center">
+				Wen start
+			</Typography>
+			<RoadMap />
 		</Box>
 	);
 };
