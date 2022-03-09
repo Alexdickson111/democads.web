@@ -11,15 +11,15 @@ const DemocadsRoadMap = () => {
 	return (
 		<Timeline position="alternate">
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">1st half of Q1 2022</TimelineOppositeContent>
+				<TimelineOppositeContent color="grey.500">1st half of Q1 2022</TimelineOppositeContent>
 				<TimelineSeparator>
 					<TimelineDot color="primary" />
-					<TimelineConnector sx={{ backgroundColor: 'primary.main' }}/>
+					<TimelineConnector sx={{ backgroundColor: 'primary.main' }} />
 				</TimelineSeparator>
 				<TimelineContent>Website launch</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">2nd half of Q1 2022</TimelineOppositeContent>
+				<TimelineOppositeContent color="grey.500">2nd half of Q1 2022</TimelineOppositeContent>
 				<TimelineSeparator>
 					<TimelineDot />
 					<TimelineConnector />
@@ -27,7 +27,7 @@ const DemocadsRoadMap = () => {
 				<TimelineContent>Smart contracts integration</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">1st half of Q2 2022</TimelineOppositeContent>
+				<TimelineOppositeContent color="grey.500">1st half of Q2 2022</TimelineOppositeContent>
 				<TimelineSeparator>
 					<TimelineDot />
 					<TimelineConnector />
@@ -37,7 +37,7 @@ const DemocadsRoadMap = () => {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">2nd half of Q2 2022</TimelineOppositeContent>
+				<TimelineOppositeContent color="grey.500">2nd half of Q2 2022</TimelineOppositeContent>
 				<TimelineSeparator>
 					<TimelineDot />
 				</TimelineSeparator>
